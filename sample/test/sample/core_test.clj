@@ -3,5 +3,5 @@
             [sample.core :refer :all]))
 
 (deftest a-test
-  (testing "Simple addition"
-    (is (= 15 (-main 5)))))
+  (testing "Simple MongoDB query"
+    (is (= "Lennon" (-main "John")))))
